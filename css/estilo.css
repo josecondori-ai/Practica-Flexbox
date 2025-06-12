@@ -1,0 +1,26 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.products{
+    background-color: aliceblue;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+
+}
+
+.product{
+    background-color: lightcoral;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex-basis: 150px;
+}
